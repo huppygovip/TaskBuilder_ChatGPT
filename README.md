@@ -1,14 +1,23 @@
+# TaskBuilder_ChatGPT
+
+[|中文|](https://github.com/huppygovip/TaskBuilder_ChatGPT/blob/main/README.md)***[|English|](https://github.com/huppygovip/TaskBuilder_ChatGPT/blob/main/README_EN.md)
+
 点击下载:[chatgpt服务对接文件](http://taskbuilder.taskmsg.com/TaskMsgDownload?fileCode=413833c2846b52fd9b294d1c72294bdc)
 
  **1.把下载的服务文件放到项目的服务文件夹下**
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/26820059/1677502636557-19dc0c91-dd96-4631-8264-28a0cef72201.png#averageHue=%23fdfcfb&clientId=u6e6a6ce0-0cf7-4&from=paste&id=uc24e886a&name=image.png&originHeight=493&originWidth=938&originalType=url&ratio=1&rotation=0&showTitle=false&size=40436&status=done&style=none&taskId=u20945e0f-5395-4c9b-9e32-3f365a3f626&title=)
 **2.用TB打开服务文件 修改APIkey apikey :Bearer+空格保留加上key key可能失效替换成自己的**
+
 使用的参数：
 model ：要使用的模型的 ID（在这里你可以看到所有可用的模型）
+
 Prompt：生成结果的触发指令
+
 max_token：完成时生成的最大token数量（这里可以看到OpenAI使用的tokenizer）
+
 temperature：要使用的采样策略。接近 1 的值会给模型带来更多风险/创造力，而接近 0 的值会生成明确定义的答案
+
 
 ① context：上下文信息
 
@@ -26,7 +35,7 @@ temperature：要使用的采样策略。接近 1 的值会给模型带来更多
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/26820059/1677502636592-1f798c05-ce44-4c84-b008-103d2a1085eb.png#averageHue=%23534436&clientId=u6e6a6ce0-0cf7-4&from=paste&id=ue45c0ead&name=image.png&originHeight=714&originWidth=1196&originalType=url&ratio=1&rotation=0&showTitle=false&size=98562&status=done&style=none&taskId=uf134a5c6-56cb-48c5-8800-a6de1e4bafd&title=)
 
-**3.如何获取openAPIken**
+**3.如何获取openAPIkey**
 获取地址https://beta.openai.com/account/api-keys 生成
 
 如果不能访问openai网站 就只能通过代理进去访问了 
@@ -66,11 +75,11 @@ function button1_onClick() {
    
 }
 
-**7.语言播报功能**
+**7.语音播报功能**
 
 上面代码中
 speakdata(res.data)
-为语言播报功能
+为语音播报功能
 
 下面为语言播报代码
 function speakdata(textcontent) {
@@ -93,4 +102,4 @@ function speakdata(textcontent) {
     }
 }
 
-**8.语言输入功能估计要调用第三方语言功能接口，把语言转成文字**
+**8.语音输入功能估计要调用第三方语言功能接口，把语言转成文字**
