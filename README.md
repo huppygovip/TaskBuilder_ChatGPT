@@ -1,6 +1,6 @@
 # TaskBuilder_ChatGPT
 
-[|中文|](https://github.com/huppygovip/TaskBuilder_ChatGPT/edit/main/README.md)***[|English|](https://github.com/huppygovip/TaskBuilder_ChatGPT/edit/main/README_EN.md)
+[|中文|](https://github.com/huppygovip/TaskBuilder_ChatGPT/blob/main/README.md)***[|English|](https://github.com/huppygovip/TaskBuilder_ChatGPT/blob/main/README_EN.md)
 
 点击下载:[chatgpt服务对接文件](http://taskbuilder.taskmsg.com/TaskMsgDownload?fileCode=413833c2846b52fd9b294d1c72294bdc)
 
